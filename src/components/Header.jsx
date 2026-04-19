@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Dropdown,
   DropdownDivider,
@@ -7,7 +6,7 @@ import {
   Button,
 } from "flowbite-react";
 import logo from "../assets/logo.png";
-function Header() {
+function Header() {  
   return (
     <div className="bg-black flex justify-between sticky">
       <div className="flex mx-2 p-3">
