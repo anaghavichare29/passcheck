@@ -10,25 +10,25 @@ function Header() {
             <div className="text-white font-semibold text-lg mt-2 ml-2">PassCheck</div>            
         </div>        
         <div>
-          <Dropdown className="bg-black mr-1 mt-2 text-md" label="Business">            
+          <Dropdown className="bg-black mr-1 mt-2 text-md hover:bg-black hover:text-gray-400" label="Business">            
           </Dropdown>
         </div>
         <div>
-          <Dropdown className="bg-black mr-1 mt-2 text-md" label="Personal">            
+          <Dropdown className="bg-black mr-1 mt-2 text-md hover:bg-black hover:text-gray-400" label="Personal">            
           </Dropdown>
         </div>
-        <Button className="profile mr-1 bg-black active mt-2 text-md">Profile</Button>
+        <Button className="profile mr-1 bg-black active mt-2 text-md hover:bg-black hover:text-gray-400">Profile</Button>
         <div>
-          <Dropdown className="bg-black mr-1 mt-2 text-md" label="Partners">            
+          <Dropdown className="bg-black mr-1 mt-2 text-md hover:bg-black hover:text-gray-400" label="Partners">            
           </Dropdown>
         </div>
         <div>
-          <Dropdown className="bg-black mr-1 mt-2 text-md" label="Resources">            
+          <Dropdown className="bg-black mr-1 mt-2 text-md hover:bg-black hover:text-gray-400" label="Resources">            
           </Dropdown>
         </div>
       </div>
       <div>
-        <Dropdown className="bg-black mr-1 mt-5 text-md" label="Login">            
+        <Dropdown className="bg-black mr-1 mt-5 text-md hover:bg-black hover:text-gray-400" label="Login">            
           </Dropdown>
       </div>
     </div>
